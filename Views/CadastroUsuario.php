@@ -109,17 +109,11 @@
                  $scope.CadastroUser = function(){
                      $http.post('Domain/CadastroUser.php',{'email':$scope.email, 'senha':$scope.senha})
                              .success(function(){
-                                 $scope.msg="Usuario Cadastrado";
-                                  $scope.titulo = "Usuario";
+                                 $scope.msg="Usuario Cadastrado";                                  
                              });
                  };
-             });
-             
-             var app = angular.module('simpleApp', []);
-                 app.controller('myCtrl', function($scope) {
-                 $scope.titulo = "Usuario";
-   
-            });
+             });             
+            
         
         </script>
         
