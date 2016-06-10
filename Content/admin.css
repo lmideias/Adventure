@@ -1,0 +1,139 @@
+.body-a {
+    width: 100%;   
+    background-image: url('../Imagens/bg-min.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; /*Css padrão*/
+   
+}
+
+.adm-body{
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #fff ;
+}
+
+.adm-container{
+	width:100%;
+	height:auto;
+	background-color: #fff ;
+}
+/*------------------------------------------------------*/
+
+.header-banner-adm{
+	width: 100%;
+	height: 80px;
+	background-color: #FF7F00;
+}
+
+.header-adm{
+	width: 1200px;
+	height: 80px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #FF7F00;
+}
+
+.header-menu-adm{
+	width: 800px;
+	height: 50px;
+	margin-top:15px;
+	display:block;
+	float:right;
+	margin-left: 15px;	
+}
+
+.header-logo-adm{
+	width:  60px;
+	height: 60px;
+	display:block;
+	float:left;	
+	margin-top:10px;		
+}
+
+/*--------------------------------------------------*/
+
+.mg-15{margin-left: 15px;}
+.mg-35{margin-left: 35px;}
+
+.adm-box1{
+    width: 94%;
+    height: 500px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 20px;
+    background-color: #fff ;
+}
+
+/*--------------------------------------------------*/
+
+.container-left{
+    width: 780px;
+    height: 600px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 20px;
+    background-color: #fff ;
+}
+
+.container-right{
+    width: 320px;
+    height: 700px;
+    display:block;
+    float:right;
+    margin-left: 20px;
+    border: 1px solid #FF7F00;
+    padding: 10px;
+    background-color: #fff ;
+    
+}
+.adm-box2{
+    width: 295px;
+    height: 200px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 10px;
+    background-color: #fff ;
+}
+/*--------------------------------------------------*/
+.adm-chat-list{
+     width: 295px;
+    height: 400px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.adm-chat-txt{
+     width: 295px;
+    height: 100px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.adm-chat-btn{
+     width: 295px;
+    height: 60px;
+    display:block;
+    float:left;
+    border: 1px solid #FF7F00;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn-chat{
+   width: 100px;
+   height: 40px;
+   background-color: #FF7F00; 
+}
