@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="testeApp">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cadastro do Usuário</title>
         <link href="caduser.css" rel="stylesheet"/>
-        <link href="../Content/bootstrap.css" rel="stylesheet"/>
-        <script src="../Scripts/angular.js" ></script>
-         <script src="../Scripts/mainAngular.js" ></script>
-         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <link href="/Content/bootstrap.css" rel="stylesheet"/>
+        <script src="/Scripts/angular.js" ></script>
+        <script src="/Views/usuario/userApp.js" ></script>
+        
         
     </head>
     <body class="body-a" >
@@ -17,6 +17,7 @@
     <div class="cad-body">
             <div class="cad-termo container"> 
                 <h3>Termo de Uso do site</h3><br />
+                {{"Eun"}}
                 <h5>Suas Imagens e videos</h5><br />
                  <h5>Suas Imagens e videos</h5><br />
                   <h5>Suas Imagens e videos</h5><br />
@@ -28,8 +29,8 @@
         <div class="cad-usuario cad-container">
                       
             <form>
-                <div ng-controller="ControleUm" class="cad-form">
-                     <h4> {{titulo}} </h4><br />
+                <div ng-controller="userControl" class="cad-form">
+                     <h4> {{2+2}} </h4><br />
                      <input type="text" class="form-control" ng-model="email" name="email" placeholder="Digite seu Email" /> <br />
                      <input type="text" class="form-control" ng-model="senha" name="senha" placeholder="Digite sua Senha" /><br />
                      <button type="submit" value="submit" ng-click="CadastroUser()" class="btn btn-success">Próximo</button>
@@ -43,23 +44,23 @@
         
         <div class="cad-pessoa cad-container">
              
-            <form action="" method="post">
+            <form >
                
-                <div class="cad-form" ng-repeat="UsuarioAd in data">
+                <div class="cad-form" ng-controller="userControl" ng-repeat="post in posts">
                       <div class="">
-                        Codigo: {{usuario.userid}}
+                        Codigo: {{post.userid}}
                       </div>
                        <div class="">
-                         Email: {{usuario.email}}
+                         Email: {{post.email}}
                       </div>
                       <div class="">
-                         Senha: {{usuario.senha}}
+                         Senha: {{post.senha}}
                       </div>
                      <div class="">
-                         Ativo: {{usuario.ativo}}
+                         Ativo: {{post.ativo}}
                       </div>
                      <div class="">
-                         Pessoa Id: {{usuario.pessoaId}}
+                         Pessoa Id: {{post.pessoaId}}
                       </div>
                  </div>
                 
@@ -101,23 +102,7 @@
         </div>
         <div class="cad-experiencia cad-container">Experiencia </div>
         
-        </div>
-        
-        <script>
-             var app = angular.module('myApp',[]);
-             app.controller('ControleUm',function($scope,$http){
-                 $scope.CadastroUser = function(){
-                     $http.post('Domain/CadastroUser.php',{'email':$scope.email, 'senha':$scope.senha})
-                             .success(function(){
-                                 $scope.msg="Usuario Cadastrado";                                  
-                             });
-                 };
-             });             
-            
-        
-        </script>
-        
-        
+        </div>            
         
         
     </body>
