@@ -16,12 +16,15 @@
                      </div>  
                      
                    <div class="barra-menu"> 
-                     
+                    <a href="/index.php"><div class="home-btn">Home</div></a>
+                    <a href="Views/CadastroUsuario.php"><div class="home-btn">Cadastro</div></a>
+                    <a href="Admin.php"><div class="home-btn">Admin</div></a>
                   </div> 
              </div>      
        </div>
        
         <div class="main-body">  
+             <div class="box-body"> 
           <div class="sobre-container"> 
                <h2>Quem e o Trilhas Adventure</h2> 
                <br />
@@ -41,7 +44,7 @@
                
                <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -54,7 +57,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -69,7 +72,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -82,7 +85,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -96,7 +99,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -109,7 +112,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -123,7 +126,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -136,7 +139,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -150,7 +153,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -163,7 +166,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -177,7 +180,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -190,7 +193,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -203,7 +206,7 @@
                
                        <div class="box-user">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                    <h2>Equipe Trilhas Adventure</h2> 
@@ -216,7 +219,7 @@
                
                 <div class="box-user mgl">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="200" height="180" />
+                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
                    </div>
                    <div class="box-user-info">
                      <h2>Equipe Trilhas Adventure</h2> 
@@ -227,7 +230,7 @@
                    </div>
                </div>
           </div>  
-       
+       </div> 
        </div>
         <div class="footer">  
             <div class="container"> 
