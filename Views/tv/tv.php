@@ -13,10 +13,11 @@
             <div class="barra-central"> 
                      <div class="bara-logo">                          
                          <img alt="Logo" src="../sobre/adventure-min.png" width="60" height="58" />
+                   
                      </div>  
                      
                    <div class="barra-menu"> 
-                     
+                      <a href=""><div class="box-btn">Home</div></a>
                   </div> 
              </div>      
        </div>

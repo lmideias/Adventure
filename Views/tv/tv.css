@@ -48,6 +48,15 @@ p{
 	
 }
 
+
+.barra-menu{
+        width: 900px;
+	height: 60px;
+        display: block;
+        float: right;	
+       margin-top: -60px;
+}
+
 /*-----------------------------------------------------------*/
 
 .barra-total-prop{
@@ -105,10 +114,25 @@ p{
 	border: 1px solid #FF7F00;
 }
 
+/*-------------------------------------------------------------*/
 
+.box-btn{
+    width: 120px;
+    height: 40px;
+    border-radius:5px ; 
+    background-color: #FFA500;
+    cursor: pointer;
+     display: block;
+    float: right;   
+    margin-top: 5px;
+    color: #fff;
+     font-family:'Roboto';    
+    text-align:center;    
+    line-height: 40px;
+    
+}
 
-
-
+/*-------------------------------------------------------------*/
 
 
 
