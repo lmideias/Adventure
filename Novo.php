@@ -18,7 +18,7 @@
           <div ng-controller="control" class="">
              {{titulo}}
          </div>
-           <div ng-controller="listagem" class="">
+           <div ng-controller="listagem" class=" ">
              {{titulo}}<br />
              {{5*2}}
            </div>
