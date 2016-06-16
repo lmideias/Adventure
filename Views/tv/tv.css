@@ -1,0 +1,162 @@
+.beckground {
+    width: 100%;   
+    background-image: url('../sobre/bg-min.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; /*Css padrão*/
+   
+}
+
+p{
+     color: #FF7F00;
+     font-family:'Roboto';     
+}
+
+/*------------------------------------------------------*/
+.sobre-container{
+	width:93%;
+	height:auto;
+        padding: 40px;
+	background-color: #fff ;
+               
+}
+
+/*------------------------------------------------------*/
+
+.tv-container{
+	width:1160px;
+	height:auto;
+        padding: 20px;
+	background-color: #000000 ;
+               
+}
+/*------------------------------------------------------*/
+
+.barra-total{
+	width: 100%;
+	height: 60px;
+	background-color: #FF7F00;
+}
+
+.barra-central{
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+
+.barra-menu{
+        width: 900px;
+	height: 60px;
+        display: block;
+        float: right;	
+       margin-top: -60px;
+}
+
+/*-----------------------------------------------------------*/
+
+.barra-total-prop{
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+}
+
+.barra-central-prop{
+	width: 1200px;
+	height: 120px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+/*-----------------------------------------------------------*/
+
+
+.main-body{
+	width: 1200px;
+	height: 2000px;
+        margin-top: 5px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #fff ;
+}
+
+.mgl{margin-left: 35px;}
+
+.box-user{
+        width: 540px;
+	height: 200px;
+        margin-top: 15px;
+        display: block;
+        float: left;
+	
+}
+
+.box-user-img{
+        width: 200px;
+	height: 200px;
+       	 display: block;
+        float: left;
+         border-radius:100px ; 
+	
+}
+
+.box-user-info{
+        width: 300px;
+	height: 150px;
+       	display: block;
+        padding: 15px;
+        float: left;
+	border: 1px solid #FF7F00;
+}
+
+/*-------------------------------------------------------------*/
+
+.box-btn{
+    width: 120px;
+    height: 40px;
+    border-radius:5px ; 
+    background-color: #FFA500;
+    cursor: pointer;
+     display: block;
+    float: right;   
+    margin-top: 5px;
+    color: #fff;
+     font-family:'Roboto';    
+    text-align:center;    
+    line-height: 40px;
+    
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	width: 1200px;
+	height: 100px;
+        margin-top: 20px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #548B54;
+}
