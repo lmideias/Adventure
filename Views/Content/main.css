@@ -1,0 +1,55 @@
+.bg-body {
+    width: 100%;   
+    background-image: url('../Imagens/bg.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; /*Css padrão*/
+   
+}
+
+/*--------  header e menu -----------------------------------------------------------*/
+
+.barra-total{
+	width: 100%;
+	height: 60px;
+	background-color: #FF7F00;
+}
+
+.barra-central{
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+
+
+/*----------- body --------------------------------------------------------*/
+
+
+.main-body{
+	width: 1200px;
+	height: 2000px;
+        margin-top: 5px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #fff ;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------- footer --------------------------------------------------*/

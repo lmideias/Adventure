@@ -5,10 +5,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sobre</title>
         <link href="sobre.css" rel="stylesheet"/>
+        <link href="../Content/main.css" rel="stylesheet"/>
         <link href="Reset.css" rel="stylesheet"/>
         
     </head>
-    <body class="beckground">
+    <body class="bg-body">
        <div class="barra-total">  
             <div class="barra-central"> 
                      <div class="bara-logo">                          
