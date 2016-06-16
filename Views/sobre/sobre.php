@@ -75,191 +75,28 @@
                
                <div class="box-user mgt">
                     <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
+                        <img alt="Logo" src="../Imagens/user.png" width="100" height="100" />
                    </div>
                    <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
+                        <h2>Equipe Trilhas Adventure</h2> 
+                        <br />
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                    </div>
                </div>
                
-                <div class="box-user mgl">
+                 <div class="box-user mgl mgt">
                     <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
+                        <img alt="Logo" src="../Imagens/user.png" width="100" height="100" />
                    </div>
                    <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
+                        <h2>Equipe Trilhas Adventure</h2> 
+                        <br />
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                    </div>
                </div>
+                         
                
-               
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                       <div class="box-user">
-                    <div class="box-user-img">
-                      <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                   <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
-               
-                <div class="box-user mgl">
-                    <div class="box-user-img">
-                   <img alt="Logo" src="adventure-min.png" width="150" height="140" />
-                   </div>
-                   <div class="box-user-info">
-                     <h2>Equipe Trilhas Adventure</h2> 
-               <br />
-               <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random text.
-               </p>
-                   </div>
-               </div>
+              
                
                
           </div> 

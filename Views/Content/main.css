@@ -77,35 +77,36 @@
         margin-top: 5px;
 	margin-left: auto;
 	margin-right:auto;
-	 background-color: #FF7F00;
+	background-color: #fff;
 }
 
 .box-body{
-        width: 950px;
+        width: 850px;
 	height: 1600px;
         display: block;
         float: left;
-        margin-top: 5px;		
-	background-color: #fff;      
+        margin-left: 50px;		
+	   
         position: absolute;
         padding: 50px;
 }
 
-.mgl{margin-left: 10px;}
+.mgl{margin-left: 20px;}
 .mgt{margin-top: 30px;}
 
 .box-user{
-        width: 450px;
-	height: 150px;
+        width: 400px;
+	height: 110px;
         margin-top: 40px;
         display: block;
         float: left;
+        
 	
 }
 
 .box-user-img{
-        width: 150px;
-	height: 140px;
+        width: 100px;
+	height: 100px;
        	display: block;
         float: left;
         border-radius:100px ; 
@@ -114,22 +115,22 @@
 
 .box-user-info{
         width: 220px;
-	height: 80px;
+	height: 60px;
        	display: block;
-        margin-top: 15px;
+        
         padding: 20px;
         float: left;
 	
 }
 
 .container-texto{
-        width: 900px;
+        width: 810px;
 	height: auto;
         display: block;       
         margin-top: 20px;       
         font-family:'Roboto';
         font-size:18px;
-        color: #262626;    
+        color:#444;    
 }
 
 
