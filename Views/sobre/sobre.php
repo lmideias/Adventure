@@ -4,30 +4,26 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta property="og:http://trilhasadventure.rf.gd">
-        <title>Sobre</title>
-        <link href="ssobre.css" rel="stylesheet"/>
+        <title>Sobre</title>       
         <link href="../Content/main.css" rel="stylesheet"/>
-        <link href="Reset.css" rel="stylesheet"/>
+        <link href="../Content/Reset.css" rel="stylesheet"/>
         
     </head>
     <body class="bg-body">     
-   
-            
-       <div class="barra-total-1"></div>
-       <div class="barra-total">  
+           
+      <div class="barra-total">  
             <div class="barra-central"> 
                  <div class="container-a"> 
                      <div class="barra-logo">                          
                          <img alt="Logo" src="adventure-min.png" width="60" height="58" />
                      </div>  
                      <div class="barra-social"> 
-                          <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                          <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
                       </div> 
                       <div class="barra-menu"> 
                           <ul>
-                              <li><a href="">Sair</a></li>
-                              <li><a href="">Menu 02</a></li>
-                              <li><a href="">Home</a></li>
+                              <li><a href="">Participar</a></li>                             
+                              <li><a href="">Página Inicial</a></li>
                           </ul>
                       </div> 
                  </div> 
@@ -37,18 +33,21 @@
         <div class="main-body">  
            <div class="box-body"> 
                <div class="container-texto"> 
-               <h2>Quem e o Trilhas Adventure</h2> 
+               <h2>Quem Somos</h2> 
                <br />
+               <p>
+                   Trilhas Adventure é um grupo voluntário que visa a integração do participante ao estilo de vida saudável, 
+                  <p> através da prática de atividades voltada para o ecoturismo, incluindo trilhas, esportes radicais, e aventuras
+                   em espaços naturais. </p><br />
+                   <p> E, ainda, diversos passeios e eventos voltados para área social, como arrecadação de agasalhos,
+                 alimentos, entre outros. </p>
+                   <br />            
                
-                  <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature </p>
-                   <p>from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</p> 
-                   <p>looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of </p>
-                   <br />
-                   <p>the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 </p>
-                   <p>of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise </p>
-                   <p>on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.</p>
+                 <p>Nossa equipe é formada por pessoas experientes que tem o compromisso de proporcionar aventuras e momentos únicos com toda a segurança requerida para tais atividades.</p><br />
+                 <p>Os eventos são previamente organizados, os locais são visitados com antecedência para montagem do melhor roteiro de acordo com o público- alvo. </p>
+  
                
-               </div>  
+              </div>  
             
             
             
@@ -75,7 +74,7 @@
                
                <div class="box-user mgt">
                     <div class="box-user-img">
-                        <img alt="Logo" src="../Imagens/user.png" width="100" height="100" />
+                        <img alt="Logo" src="../Imagens/user.png" width="110" height="110" />
                    </div>
                    <div class="box-user-info">
                         <h2>Equipe Trilhas Adventure</h2> 
@@ -86,7 +85,7 @@
                
                  <div class="box-user mgl mgt">
                     <div class="box-user-img">
-                        <img alt="Logo" src="../Imagens/user.png" width="100" height="100" />
+                        <img alt="Logo" src="../Imagens/user.png" width="110" height="110" />
                    </div>
                    <div class="box-user-info">
                         <h2>Equipe Trilhas Adventure</h2> 
