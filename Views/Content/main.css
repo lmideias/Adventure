@@ -92,7 +92,7 @@
 .box-user{
         width: 400px;
 	height: 110px;
-        margin-top: 40px;
+        margin-top: 80px;
         display: block;
         float: left;
        
@@ -203,7 +203,7 @@
 
 .footer{
 	width: 950px;
-	height: 60px;
+	height: 30px;
         padding: 50px;
         margin-top: 5px;
 	margin-left: auto;

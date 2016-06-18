@@ -1,13 +1,3 @@
-
-body{
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-color: #EEEED1;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover; /*Css padrão*/
-}
-
 /*------------------------------------------------------*/
 
 .header-banner-simples{
@@ -63,7 +53,7 @@ body{
 .header-banner{
 	width: 100%;
 	height: 600px;	
-    background-image: url('../Imagens/bg-min.png');
+    background-image: url('../Imagens/bg2.jpg');
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center center;
@@ -92,7 +82,9 @@ body{
 	 position:absolute;  
 }
 
-/*----------*/
+/*--------------------------*/
+
+
 .home-header-menu{
     width: 1200px;
     height: 60px;   
@@ -138,7 +130,7 @@ body{
     margin-top: 5px;
      
 }
-/*----------*/
+/*-------------------------*/
 
 .home-header-left{
     width: 475px;
@@ -164,6 +156,10 @@ body{
      margin-top: 15px;
    
 }
+
+/*-------------------------*/
+
+
 .home-logo{
      width: 240px;
      height: 240px;
@@ -185,6 +181,7 @@ body{
 @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 
+
 /*------------------------------------------------------*/
 
 
@@ -196,6 +193,56 @@ body{
 	background-color: #fff ;
 }
 
+.container-body{
+	width:1120px;
+	height:1000px;
+        margin-top: -60px;
+        background-color: #fff ;
+        padding: 40px;
+}
+
+.box-b1{
+    width: 250px;
+    height: 400px;
+    display: block;
+    float: left;
+    background-color: #FFD39B;    
+}
+
+.box-b2{
+    width: 600px;
+    height: 400px;
+    display: block;
+    float: left;
+     margin-left: 5px;
+    background-color: #FFD39B;    
+}
+
+.box-b3{
+    width: 250px;
+    height: 400px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    background-color: #FFD39B;    
+}
+
+.box-a{
+    width: auto;
+    height: auto;
+    display: block;
+    float: left;
+    background-color: #FFD39B;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+/*-------------------------*/
 .footer{
 	width: 1200px;
 	height: 100px;
@@ -215,12 +262,7 @@ body{
 	height:auto;
 	
 }
-.container-body{
-	width:100%;
-	height:600px;
-        margin-top: -60px;
-        background-color: #fff ;
-}
+
 /*======= Menu =================================*/
 
 ul{
