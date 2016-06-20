@@ -1,58 +1,8 @@
-/*------------------------------------------------------*/
+/*------------- Header-----------------------------------------*/
 
-.header-banner-simples{
-	width: 100%;
-	height: 80px;
-	background-color: #548B54;
-}
-
-.header-simples{
-	width: 1200px;
-	height: 80px;
-	margin-left: auto;
-	margin-right:auto;
-	background-color: #548B54;
-}
-
-.header-menu-simples{
-	width: 800px;
-	height: 50px;
-	margin-top:15px;
-	display:block;
-	float:right;
-	margin-left: 15px;	
-	
-}
-
-.header-logo-simples{
-	width:  60px;
-	height: 60px;
-	display:block;
-	float:left;
-	
-	margin-top:10px;	
-		
-}
-
-
-.header-seach-simples{
-	width: 300px;
-	height: 50px;
-	margin-top:15px;	
-	display:block;
-	float:left;
-	margin-left: 20px;
-	
-	
-}
-
-
-
-/*------------------------------------------------------*/
-
-.header-banner{
-	width: 100%;
-	height: 600px;	
+.header-bc{
+    width: 100%;
+    height: 600px;	
     background-image: url('../Imagens/bg2.jpg');
     background-repeat: no-repeat;
     background-color: #000000;
@@ -61,12 +11,47 @@
     background-size: cover; /*Css padrão*/
 }
 
+.h-social{
+    width: 1200px;
+    height: 80px;   
+    margin-left: auto;
+    margin-right:auto;
+    
+}
 
+.hs-01{
+    width: 400px;
+    height: 60px;
+    display: block;
+    float: left; 
+     margin-top: 5px;
+   
+}
 
+.hs-02{
+    width: 400px;
+    height: 60px;
+    display: block;
+    float: left;
+    margin-left: 15px;
+     margin-top: 5px;
+    
+}
+.hs-03{
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left; 
+    margin-left: 20px;
+     margin-top: 5px;
+    
+}
 
+.hs-03:hover{
+     margin-top: 15px;
+}
 
-
-.header{
+.h-body{
 	width: 1200px;
 	height: 600px;
 	margin-left: auto;
@@ -74,93 +59,36 @@
 	
 }
 
-.header-logo{
-       width: 200px;
-	height: 180px;
-        margin-top: 30px;
-        alignment-adjust: central;
-	 position:absolute;  
-}
-
-/*--------------------------*/
-
-
-.home-header-menu{
-    width: 1200px;
-    height: 60px;   
-}
-
-.home-btn{
-    width: 120px;
-    height: 40px;
-    border-radius:5px ; 
-    background-color: #FFA500;
-    cursor: pointer;
-     display: block;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-    color: #fff;
-     font-family:'Roboto';    
-    text-align:center;    
-    line-height: 40px;
-    
-}
-
-.home-social{
-    width: 350px;
-    height: 40px;
-    border-radius:5px ;    
-     display: block;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-      background-color: #FFA500;
-}
-
-.home-social2{
-    width: 180px;
-    height: 40px;
-    border-radius:5px ; 
-    background-color: #FFA500;
-    cursor: pointer;
-     display: block;
-    float: left;
-    margin-left: 15px;
-    margin-top: 5px;
-     
-}
-/*-------------------------*/
-
-.home-header-left{
-    width: 475px;
+.hb-left{
+    width: 470px;
     height: 460px;
     display: block;
     float: left;
-     margin-top: 15px;
-   
-}
-.home-header-center{
-    width: 200px;
-     height: 460px;
-    display: block;
-    float: left;
-    margin-top: 15px;
+    margin-top: 10px;
     
 }
-.home-header-right{
-    width: 475px;
-      height: 460px;
+
+.hb-center{
+    width: 250px;
+    height: 460px;
     display: block;
     float: left;
-     margin-top: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+
+.hb-right{
+    width: 470px;
+    height: 460px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
    
 }
 
-/*-------------------------*/
-
-
-.home-logo{
+.hbc-logo{
      width: 240px;
      height: 240px;
     display: block;
@@ -200,6 +128,75 @@
         background-color: #fff ;
         padding: 40px;
 }
+
+
+
+/*-----------------------------------------------------*/
+
+
+.b-menu{
+    width: 1110px;
+    height: 200px;   
+    display: block;
+    float: left;   
+    margin-top: 30px;
+    background-color: #FFD39B;
+    
+}
+
+.bm-op{
+     width: 180px;
+    height: 200px;   
+    display: block;
+    float: left;    
+    background-color: #fff;
+}
+
+.bm-op-titulo{
+     width: 180px;
+    height: 30px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+
+.bm-op-imagem{
+     width: 180px;
+    height: 120px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+.bm-op-link{
+     width: 180px;
+    height: 30px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+
+
+.home-btn{
+    width: 120px;
+    height: 40px;
+    border-radius:5px ; 
+    background-color: #FFA500;
+    cursor: pointer;
+     display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+     font-family:'Roboto';    
+    text-align:center;    
+    line-height: 40px;
+    
+}
+
+/*-------------------------*/
 
 .box-b1{
     width: 250px;
@@ -262,6 +259,13 @@
 	height:auto;
 	
 }
+
+
+/*----- social-menu-imagens ----------------*/
+
+
+
+
 
 /*======= Menu =================================*/
 

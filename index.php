@@ -11,40 +11,35 @@
     <body>
    
 
-       <div class="header-banner">  
-            <div class="header"> 
-                
-                <div class="home-header-menu">
-                     <div class="header-menu"> 
-                         <div class="home-social">                         
-                         
-                         </div>
-                          <div class="home-social2">Instagran</div>
-                    <a href="index.php"><div class="home-btn">Home</div></a>
-                    <a href="Views/CadastroUsuario.php"><div class="home-btn">Cadastro</div></a>
-                    <a href="Admin.php"><div class="home-btn">Admin</div></a>
-                                      
-                     <div class="home-social2">Youtube</div>
-                                       
-                     
-                  </div> 
+       <div class="header-bc">  
+           <div class="h-social">
+                <div class="hs-01">
                 </div>
-                
-                 <div class="home-header-left">
-                    
+                <div class="hs-02">
                 </div>
-                 <div class="home-header-center">
-                     <div class="home-logo">
+                <div class="hs-03">
+                    <a href="#"> <img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                </div>
+                <div class="hs-03">
+                     <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                </div>
+                <div class="hs-03">
+                     <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                </div>
+                <div class="hs-03">
+                      <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                </div>          
+           
+           </div>
+           <div class="h-body">
+                <div class="hb-left"></div>          
+                <div class="hb-center">
+                    <div class="hbc-logo">
                      <img alt="Logo" src="/Imagens/adventure-min.png" width="250" height="230" />
-                     </div>
+                    </div>
                 </div>
-                 <div class="home-header-right">
-                   
-                </div>      
-                
-                     
-                  
-             </div>      
+                <div class="hb-right"></div>
+           </div>
        </div>
        
         
@@ -62,8 +57,20 @@
                  <div class="box-b3"> 
                      
                  </div>
-                
-                
+                <!-- menu body-->
+                 <div class="b-menu"> 
+                      <div class="bm-op"> 
+                          <div class="bm-op-titulo"> 
+                              <h3> Agenda de Eventos</h3>
+                          </div>
+                          <div class="bm-op-imagem"> 
+                              <img alt="Logo" src="/Imagens/bg-min.png" width="180" height="120" />
+                          </div>
+                          <div class="bm-op-link"> 
+                              <h4>Link de acesso</h4>
+                          </div>
+                      </div>
+                 </div>
                 
                 
                  <div class="box-a"> 
