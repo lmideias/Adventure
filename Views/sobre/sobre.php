@@ -24,7 +24,7 @@
                       <div class="barra-menu"> 
                           <ul>
                               <li><a href="">Participar</a></li>                             
-                              <li><a href="">Página Inicial</a></li>
+                              <li><a href="/index.php">Página Inicial</a></li>
                           </ul>
                       </div> 
                  </div> 
