@@ -17,29 +17,40 @@
                 <div class="home-header-menu">
                      <div class="header-menu"> 
                          <div class="home-social">                         
+                            <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                      
+                         </div>               
+                       
                          
-                         </div>
-                          <div class="home-social2">Instagran</div>
-                    <a href="index.php"><div class="home-btn">Home</div></a>
-                    <a href="Views/CadastroUsuario.php"><div class="home-btn">Cadastro</div></a>
-                    <a href="Admin.php"><div class="home-btn">Admin</div></a>
-                                      
-                     <div class="home-social2">Youtube</div>
-                                       
+                         <div class="">
+                           <a href="index.php"><div class="home-btn">Home</div></a>
+                           <a href="Views/CadastroUsuario.php"><div class="home-btn">Cadastro</div></a>
+                           <a href="Admin.php"><div class="home-btn">Admin</div></a>                                
+                        </div>
+                         
+                        <div class="home-social2">
+                             <a href=""> <img alt="Logo"  src="/Imagens/face.png" width="50" height="50" /></a> 
+                             <a href=""> <img alt="Logo" src="/Imagens/insta.png" width="50" height="50" /></a> 
+                             <a href=""> <img alt="Logo" src="/Imagens/youtube.png" width="50" height="50" /></a> 
+                             <a href=""> <img alt="Logo" src="/Imagens/whats.png" width="50" height="50" /></a>                  
+                        </div>
                      
-                  </div> 
+                     
+                     </div> 
                 </div>
                 
                  <div class="home-header-left">
-                    
-                </div>
+                     <h1>lado esquerdo</h1>
+                 </div>
+                
                  <div class="home-header-center">
                      <div class="home-logo">
                      <img alt="Logo" src="/Imagens/adventure-min.png" width="250" height="230" />
                      </div>
                 </div>
+                
                  <div class="home-header-right">
-                   
+                    <h1>lado direito</h1>
                 </div>      
                 
                      
@@ -88,5 +99,16 @@
                <h3>Textos para analise de espaço</h3> 
             </div>       
        </div>
+        
+                        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=570611709655080";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script> 
+
     </body>
 </html>

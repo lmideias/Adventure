@@ -71,7 +71,7 @@
 	height: 600px;
 	margin-left: auto;
 	margin-right:auto;
-	
+	background-color: #c9302c;
 }
 
 .header-logo{
@@ -87,7 +87,8 @@
 
 .home-header-menu{
     width: 1200px;
-    height: 60px;   
+    height: 67px;
+     background-color: #FFA500;
 }
 
 .home-btn{
@@ -107,54 +108,50 @@
     
 }
 
-.home-social{
-    width: 350px;
-    height: 40px;
-    border-radius:5px ;    
-     display: block;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-      background-color: #FFA500;
+.icones{         
+    display: block;
+    float: left;   
+    margin-top: 5px;     
 }
 
 .home-social2{
-    width: 180px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     border-radius:5px ; 
-    background-color: #FFA500;
+    background-color: #548B54;
     cursor: pointer;
      display: block;
     float: left;
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
      
 }
 /*-------------------------*/
 
 .home-header-left{
     width: 475px;
-    height: 460px;
-    display: block;
-    float: left;
-     margin-top: 15px;
-   
-}
-.home-header-center{
-    width: 200px;
-     height: 460px;
+    height: 440px;
     display: block;
     float: left;
     margin-top: 15px;
-    
+    margin-left:-350px;
+    background-color: #000;
+}
+.home-header-center{
+    width: 250px;
+     height: 440px;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    background-color: #FFD39B;
 }
 .home-header-right{
     width: 475px;
-      height: 460px;
+      height: 440px;
     display: block;
     float: left;
      margin-top: 15px;
-   
+   background-color: #FFA500;
 }
 
 /*-------------------------*/

@@ -19,7 +19,8 @@
                      </div>  
                      <div class="barra-social"> 
                           <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-                      </div> 
+                      
+                     </div> 
                       <div class="barra-menu"> 
                           <ul>
                               <li><a href="">Participar</a></li>                             
