@@ -6,8 +6,7 @@
         <meta property="og:http://trilhasadventure.rf.gd">
         <title>Sobre</title>       
         <link href="../Content/main.css" rel="stylesheet"/>
-        <link href="../Content/Reset.css" rel="stylesheet"/>
-        
+        <link href="../Content/Reset.css" rel="stylesheet"/>        
     </head>
     <body class="bg-body">     
            
