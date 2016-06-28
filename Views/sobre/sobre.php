@@ -6,8 +6,7 @@
         <meta property="og:http://trilhasadventure.rf.gd">
         <title>Sobre</title>       
         <link href="../Content/main.css" rel="stylesheet"/>
-        <link href="../Content/Reset.css" rel="stylesheet"/>
-        
+        <link href="../Content/Reset.css" rel="stylesheet"/>        
     </head>
     <body class="bg-body">     
            
@@ -19,11 +18,12 @@
                      </div>  
                      <div class="barra-social"> 
                           <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-                      </div> 
+                      
+                     </div> 
                       <div class="barra-menu"> 
                           <ul>
                               <li><a href="">Participar</a></li>                             
-                              <li><a href="">Página Inicial</a></li>
+                              <li><a href="/index.php">Página Inicial</a></li>
                           </ul>
                       </div> 
                  </div> 

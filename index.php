@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -9,25 +10,28 @@
         <script src="Scripts/main.js"></script>
     </head>
     <body>
-   
-
-       <div class="header-bc">  
+        <div class="header-bc">  
            <div class="h-social">
                 <div class="hs-01">
+                    <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                      
                 </div>
                 <div class="hs-02">
+                     <a href="#"><div class="home-btn">Participar</div></a>
+                     <a href="#"><div class="home-btn">Agenda</div></a>
+                     <a href="Views/sobre/sobre.php"><div class="home-btn">Sobre</div></a>      
                 </div>
                 <div class="hs-03">
-                    <a href="#"> <img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                    <a href="#"> <img alt="Logo" src="/Imagens/whats.png" width="50" height="50" /></a>
                 </div>
                 <div class="hs-03">
-                     <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                     <a href="#"><img alt="Logo" src="/Imagens/youtube.png" width="50" height="50" /></a>
                 </div>
                 <div class="hs-03">
-                     <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                     <a href="#"> <img alt="Logo" src="/Imagens/insta.png" width="50" height="50" /></a>
                 </div>
                 <div class="hs-03">
-                      <a href="#"><img alt="Logo" src="/Imagens/adventure-min.png" width="60" height="60" /></a>
+                      <a href="#"> <img alt="Logo"  src="/Imagens/face.png" width="50" height="50" /></a>
                 </div>          
            
            </div>
@@ -41,11 +45,8 @@
                 <div class="hb-right"></div>
            </div>
        </div>
+
        
-        
-        
-        
-        
         <div class="main-body">  
             <div class="container-body"> 
                  <div class="box-b1"> 
@@ -95,5 +96,16 @@
                <h3>Textos para analise de espaço</h3> 
             </div>       
        </div>
+        
+       <div id="fb-root"></div>
+             <script>(function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=570611709655080";
+             fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+            </script> 
+
     </body>
 </html>

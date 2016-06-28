@@ -180,8 +180,8 @@
 
 
 .home-btn{
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     border-radius:5px ; 
     background-color: #FFA500;
     cursor: pointer;
@@ -192,7 +192,7 @@
     color: #fff;
      font-family:'Roboto';    
     text-align:center;    
-    line-height: 40px;
+    line-height: 30px;
     
 }
 
