@@ -392,11 +392,33 @@ ul li:hover a:hover{
     height: auto;
     padding: 20px;
     display:block;
+    float: left;
     margin-top: 10px;
     background-color: #fff;
-    
+    border: 1px solid #000;
 }
 
+.ac-box-container{
+     width:900px;
+    height: auto;
+    padding:40px;
+    display:block;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+   background-color: #E0EEE0;
+   border-radius: 8px;
+}
+
+.ac-box{
+    width: 400px;
+    height: auto;    
+    display:block;
+    float: left;     
+}
+
+.ac-mgl{margin-left: 15px;}
+.ac-mgt{margin-top: 30px;}
 /*========= MEDIA QUERY INICIO ===========================================*/
 
 @media only screen and (max-width : 1000px){
