@@ -354,36 +354,60 @@ ul li:hover a:hover{
 
 .ca-header{
      width:1000px;
-    height: 80px;   
+    height: 100px;   
     display:block;
     background-color: #FFA500;
     
 }
 
 .ca-logo{
-    width:100px;
+    width:90px;
     height: 80px;   
     display:block;
     float: left;
-   margin-left: 20px;   
+   margin-left: 100px;
+   margin-top: 10px;
   
 }
 
 .ca-menu{
-     width:400px;
-    height: 50px;   
+     width:100px;
+    height: 70px;   
     display:block;
-   margin-left: 50px;
+   margin-left: 250px;
    margin-top: 15px;
-   background-color: #FFA500;
+  
+     float: left;
+     position: relative;
+   
+}
+
+.ca-titulo{
+     width:100px;
+    height: 20px;   
+    display:block;
+  
+  
      float: left;
      position: relative;
      font-family:'Roboto';    
     text-align:center;
-    size:18px;
+    font-size: 20px;
+    color:#fff;
 }
-
-
+.ca-numero{
+     width:100px;
+    height: 50px;   
+    display:block;  
+   margin-top: 5px;
+  
+     float: left;
+     position: relative;
+     font-family:'Roboto';    
+    text-align:center;
+   font-size: 50px;
+    color:#fff;
+}
 
 
 
@@ -419,6 +443,35 @@ ul li:hover a:hover{
 
 .ac-mgl{margin-left: 15px;}
 .ac-mgt{margin-top: 30px;}
+
+
+/*======== Login ===========================*/
+
+.ca-login{
+    width:300px;
+    height: 300px;   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #E0EEE0;
+   padding: 50px;
+   margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========= MEDIA QUERY INICIO ===========================================*/
 
 @media only screen and (max-width : 1000px){
@@ -471,6 +524,18 @@ ul li:hover a:hover{
     background-color: #fff;
     
 }
+
+.ca-login{
+    width:300px;
+    height: 300px;   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFA500;
+}
+
+
+
 
 }
 
