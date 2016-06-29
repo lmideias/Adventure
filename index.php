@@ -1,9 +1,40 @@
+<?php
+include 'Domain/configuration.php';
+
+if(isset($_POST['cadastrar']))
+{
+     $Nome = $_POST['nome'];
+     $Telefone = $_POST['telefone'];
+     
+     $Numero = $_POST['numero'];
+     $Orgao = $_POST['orgao'];
+     $DataEx = $_POST['dataex'];
+     $Uf = $_POST['uf'];
+     
+     $NomeCont = $_POST['nomecont'];
+     $TelefoneCont = $_POST['telefonecont'];
+     
+     
+     
+     
+     $query = "INSERT INTO lista ('nome','telefone','numero','orgao','dataex','uf','nomecont','telcont') VALUES ('$Nome','$Telefone','$Numero','$Orgao','$DataEx','$Uf','$NomeCont','$TelefoneCont')";
+     $data = mysql_query($query)or die(mysql_error());
+     
+     if($data)
+     {
+         setcookie("nome",$Nome);
+         header("Location: http://trilhasadventure.rf.gd/admpage.php");
+         
+     }else
+     {
+        echo "<h3>Nome ou Senha Errados</h3>";
+     }
+}
+
+?>
+
+
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         
@@ -20,17 +51,19 @@ and open the template in the editor.
         <div class="ca-body">
             <div class="ca-header">
                   <div class="ca-logo">
-                       <img alt="Logo" src="/Imagens/adventure-min.png" width="80" height="76" />
+                      <a href="admlogin.php"><img alt="Logo" src="/Imagens/adventure-min.png" width="80" height="76" /></a>
                   </div>
                    <div class="ca-menu">
-                       <ul>
-                           <li><a href=""><h2>Cadastrar</h2></a></li>
-                           <li><a href=""><h1>Cadastrados</h1></a></li>                           
-                       </ul>
+                       <div class="ca-titulo">
+                           <h1>Cadastros</h1>
+                      </div>
+                        <div class="ca-numero">
+                        100
+                       </div>
                   </div>
             </div>
             <div class="ca-container">
-               
+                <form method="POST" >
                  <div class="ac-box-container">
                      
                      
@@ -48,12 +81,12 @@ and open the template in the editor.
                 
                 <div class="form-group ac-box">
                 <label for="nome completo">Nome Completo</label><p/>
-                <input type="text" class="form-control" id="nome" required placeholder="Seu nome completo">
+                <input type="text" name="nome" class="form-control" id="nome" required placeholder="Seu nome completo">
                 </div>
                 
                <div class="form-group ac-box ac-mgl">
                 <label for="nome completo">Telefone</label><p/>
-                <input type="text" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
+                <input type="text" name="telefone" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
                 </div>
                  </div>
                 
@@ -64,19 +97,19 @@ and open the template in the editor.
                 
                 <div class="form-group ac-box">
                 <label for="rgnumero">Numero</label><p/>
-                <input type="text" class="form-control" id="numero" required placeholder="Numero">
+                <input type="text" name="numero"class="form-control" id="numero" required placeholder="Numero">
                  <br /><br />
                   <label for="rgnumero">Data Expedição</label><p/>
-                <input type="text" class="form-control" id="dataexp" required placeholder="Data Expedição">
+                <input type="text" name="dataex"class="form-control" id="dataexp" required placeholder="Data Expedição">
                 
                 </div>
                 
                <div class="form-group ac-box ac-mgl">
                 <label for="nome completo">Orgão Emissor</label><p/>
-                <input type="text" class="form-control" id="orgao" required placeholder="Orgão Emissor">                
+                <input type="text" name="orgao" class="form-control" id="orgao" required placeholder="Orgão Emissor">                
                  <br /><br />
                   <label for="rgnumero">UF</label><p/>
-                <input type="text" class="form-control" id="uf" required placeholder="Estado de Origem">
+                <input type="text" name="uf" class="form-control" id="uf" required placeholder="Estado de Origem">
                 
                 </div>
                  </div>
@@ -95,22 +128,22 @@ and open the template in the editor.
                                 
                 <div class="form-group ac-box">
                 <label for="nome completo">Nome Completo</label><p/>
-                <input type="text" class="form-control" id="nome" required placeholder="Seu nome completo">
+                <input type="text" name="nomecont" class="form-control" id="nome" required placeholder="Seu nome completo">
                 </div>
                 
                <div class="form-group ac-box ac-mgl">
                 <label for="nome completo">Telefone</label><p/>
-                <input type="text" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
+                <input type="text" name="telefonecont" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
                 </div>     
                             
                 
                 </div>
                 
                 <div class="ac-box-container ">
-                    <button type="button" class="btn btn-primary">Cadastrar</button>
+                    <button type="submit" name="cadastrar"class="btn btn-primary">Cadastrar</button>
                     <button type="button" class="btn btn-warning">Limpar Formulario</button>
                 </div>
-                
+                </form>  
             </div>
         </div>
     </body>
