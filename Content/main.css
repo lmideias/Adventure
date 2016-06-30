@@ -339,7 +339,7 @@ ul li:hover a:hover{
     position:relative;
 }
 
-/*======== Formulario de cadastro mobile ===========================*/
+/*======== Formulario de cadastro ===========================*/
 
 
  .ca-body{
@@ -348,16 +348,24 @@ ul li:hover a:hover{
     display:block;
     margin-left: auto;
     margin-right: auto;
-   background-color: #FFA500;
+   background-color: #FFEFDB;
+   margin-top: -10px;
     
 }
-
+.ca-header-barra{
+     width:100%;
+    height: 100px;   
+    display:block;
+    background-color: #FFA500;
+    
+}
 .ca-header{
      width:1000px;
     height: 100px;   
     display:block;
     background-color: #FFA500;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ca-logo{
@@ -417,9 +425,7 @@ ul li:hover a:hover{
     padding: 20px;
     display:block;
     float: left;
-    margin-top: 10px;
-    background-color: #fff;
-    border: 1px solid #000;
+   
 }
 
 .ac-box-container{
@@ -431,7 +437,7 @@ ul li:hover a:hover{
     margin-left: 30px;
     position: relative;
    background-color: #E0EEE0;
-   border-radius: 8px;
+   
 }
 
 .ac-box{
@@ -442,7 +448,12 @@ ul li:hover a:hover{
 }
 
 .ac-mgl{margin-left: 15px;}
-.ac-mgt{margin-top: 30px;}
+.ac-mgt{margin-top: 5px;}
+
+.ac-h1{margin-top: 20px;}
+.ac-box-container p{margin-top: 15px;}
+
+
 
 
 /*======== Login ===========================*/
