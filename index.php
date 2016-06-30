@@ -22,10 +22,16 @@
                   </div>
                    <div class="ca-menu">
                        <div class="ca-titulo">
-                           <h1>{{"Cadastros"}}</h1>
+                           <h1>Eventos</h1>
                       </div>
                         <div class="ca-numero">
-                        {{3+3}}
+                         <select class="ca-dropdown" name="Evento">
+                            <option value="v0">Selecione o Evento</option>
+                            <option value="v1">Festival da Pinga</option>
+                            <option value="v2">Capitolio</option>
+                            <option value="v3">Camping no Afegao</option>
+                            <option value="v4">Rapel na lua</option>
+                        </select>
                        </div>
                   </div>
             </div>
@@ -42,48 +48,63 @@
                 Quem viaja de ônibus não precisa pagar nada por este seguro, ele já é pago pela empresa prestadora de serviço.
                 </p>
                 
-                 </div>
+            </div>
                     
-                <div class="ac-box-container ac-mgt">
-                <h3>Participante</h3>
-                <br /><br />
-                
-                <div class="form-group ac-box">
-                <label for="nome completo">Nome Completo</label><p/>
+                    
+                    
+            <div class="ac-box-3">
+                <div class="ac-box-31">
+                    <div class="ac-box-31t">
+                        <h3>Participante</h3>
+                    </div>
+                    <div class="ac-box-31c">
+                         <div class="form-group ac-box">
+               
                 <input type="text" ng-model="nome" name="nome" class="form-control" id="nome" required placeholder="Seu nome completo">
                 </div>
                 
-               <div class="form-group ac-box ac-mgl">
-                <label for="nome completo">Telefone</label><p/>
+               <div class="form-group ac-box ">
+               
                 <input type="text" ng-model="telefone" name="telefone" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
                 </div>
-                 </div>
-                
-                
-                 <div class="ac-box-container ac-mgt">
-                <h3>Documento de Identificação</h3>
-                <br /><br />
-                
-                <div class="form-group ac-box">
-                <label for="rgnumero">Numero</label><p/>
-                <input type="text" ng-model="numero" name="numero"class="form-control" id="numero" required placeholder="Numero">
-                 <br /><br />
-                  <label for="rgnumero">Data Expedição</label><p/>
-                <input type="text" ng-model="dataex" name="dataex"class="form-control" id="dataexp" required placeholder="Data Expedição">
-                
+                    </div>
                 </div>
+                 <div class="ac-box-32">
+                    <div class="ac-box-32t">
+                         <h3>Documento de Identificação</h3>
+                    </div>
+                    <div class="ac-box-32c">
+                         <div class="ac-box-min">    
+                             
+                              <input type="text" ng-model="numero" name="numero"class="form-control" id="numero" required placeholder="Numero">
+                         </div>
+
+                        <div class="ac-box-min ac-mgl">    
+                           
+                            <input type="text" ng-model="dataex" name="dataex"class="form-control" id="dataexp" required placeholder="Data Expedição">
+                        </div>
+
+                         <div class="ac-box-min ac-mgt15">    
+                            
+                             <input type="text" ng-model="orgao" name="orgao" class="form-control" id="orgao" required placeholder="Orgão Emissor">                
+
+                        </div>
+
+                        <div class="ac-box-min ac-mgt15 ac-mgl">    
+                            
+                             <input type="text" ng-model="uf" name="uf" class="form-control" id="uf" required placeholder="Estado de Origem">
+
+                        </div> 
+                    </div>
+                </div>  
                 
-               <div class="form-group ac-box ac-mgl">
-                <label for="nome completo">Orgão Emissor</label><p/>
-                <input type="text" ng-model="orgao" name="orgao" class="form-control" id="orgao" required placeholder="Orgão Emissor">                
-                 <br /><br />
-                  <label for="rgnumero">UF</label><p/>
-                <input type="text" ng-model="uf" name="uf" class="form-control" id="uf" required placeholder="Estado de Origem">
-                
-                </div>
-                 </div>
+                   
+            </div>
                                 
                 
+                    
+                    
+                    
                 
                  <div class="ac-box-container ac-mgt">
                 <h3>Contato de Emergência</h3>
@@ -95,14 +116,12 @@
                 <br /><br />
                 
                                 
-                <div class="form-group ac-box">
-                <label for="nome completo">Nome Completo</label><p/>
-                <input type="text" ng-model="nomecont" name="nomecont" class="form-control" id="nome" required placeholder="Seu nome completo">
+                <div class="form-group ac-box">                
+                <input type="text" ng-model="nomecont" name="nomecont" class="form-control" id="nome" required placeholder="Nome do Contato">
                 </div>
                 
-               <div class="form-group ac-box ac-mgl">
-                <label for="nome completo">Telefone</label><p/>
-                <input type="text" ng-model="telefonecont" name="telefonecont" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
+               <div class="form-group ac-box ac-mgl">               
+                <input type="text" ng-model="telefonecont" name="telefonecont" class="form-control" id="seutelefone" required placeholder="Telefone do Contato">
                 </div>     
                             
                 
@@ -118,21 +137,14 @@
                    </p>
                 </div>
                     
-                  <div class="ac-box-container ">   
-                <div class="form-group ac-box">
-                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                   </p>
-                    <button type="button" name="btnOk" ng-click="insertdata()" class="btn btn-primary">Cadastrar</button>
-                    
-                </div>
-                
-               <div class="form-group ac-box ac-mgl">
-                 <button type="button" name="btnOk" ng-click="insertdata()" class="btn btn-primary">Cadastrar</button>
-                    
+                <div class="ac-box-container ">   
+                   <div class="form-group ac-box">                   
+                    <button type="button" name="btnOk" ng-click="insertdata()" class="btn btn-primary">Concordar</button>                
+                    <button type="button" name="" class="btn btn-primary">Sair</button>
                    
-               </div> 
+                   </div> 
                 </div>
+                    
                 </form>  
             </div>
         </div>
