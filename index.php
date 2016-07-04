@@ -22,16 +22,10 @@
                   </div>
                    <div class="ca-menu">
                        <div class="ca-titulo">
-                           <h1>Eventos</h1>
+                           <h1>Cadastro para o Seguro obrigatório</h1>
                       </div>
                         <div class="ca-numero">
-                         <select class="ca-dropdown" name="Evento">
-                            <option value="v0">Selecione o Evento</option>
-                            <option value="v1">Festival da Pinga</option>
-                            <option value="v2">Capitolio</option>
-                            <option value="v3">Camping no Afegao</option>
-                            <option value="v4">Rapel na lua</option>
-                        </select>
+                        
                        </div>
                   </div>
             </div>
@@ -41,9 +35,9 @@
             <div class="ca-container">
                 <form method="POST" >
                  <div class="ac-box-container">                
-                       <h3>Cadastro para o Seguro obrigatório</h3> <br /> <br />
-                <p>                 
-                Seguro obrigatório<p/><p>   
+                                                       
+                     <span>Seguro obrigatório</span>
+                <p>   
                 As vítimas de acidentes rodoviários têm cobertura do seguro DPVAT (Danos Pessoais Causados por Veículos Automotores de Via Terrestre), uma apólice obrigatória paga por todos os veículos automotores (incluindo ônibus), com o objetivo de garantir indenizações em caso de morte ou invalidez e reembolso, em caso de despesas médicas em decorrência de acidentes.<p/>
                 Quem viaja de ônibus não precisa pagar nada por este seguro, ele já é pago pela empresa prestadora de serviço.
                 </p>

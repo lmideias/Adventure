@@ -349,7 +349,7 @@ ul li:hover a:hover{
     margin-left: auto;
     margin-right: auto;
    background-color: #FFEFDB;
-   margin-top: -10px;
+   margin-top: 0px;
     
 }
 .ca-header-barra{
@@ -379,33 +379,31 @@ ul li:hover a:hover{
 }
 
 .ca-menu{
-     width:100px;
+     width:400px;
     height: 70px;   
     display:block;
-   margin-left: 250px;
-   margin-top: 15px;
-  
+   margin-left:100px;
+   margin-top: 15px;  
      float: left;
      position: relative;
    
 }
 
 .ca-titulo{
-     width:100px;
+     width:400px;
     height: 20px;   
-    display:block;
-  
-  
+    display:block;    
      float: left;
      position: relative;
      font-family:'Roboto';    
     text-align:center;
     font-size: 20px;
     color:#fff;
+    margin-top: 20px; 
 }
 .ca-numero{
      width:300px;
-    height: 40px;   
+    height: auto;   
     display:block;  
    margin-top: 5px; 
      float: left;
@@ -414,10 +412,10 @@ ul li:hover a:hover{
 }
 
 .ca-dropdown{
-     width:250px;
-    height: 40px;
+     width:180px;
+    height: 35px;
     padding: 10px;
-    margin-left: -50px;
+    margin-left: -30px;
     display:block; 
      float: left;
      position: relative;
@@ -425,6 +423,7 @@ ul li:hover a:hover{
     text-align:center;
    font-size: 16px;
   border: none;
+  border-radius: 4px;
 }
 
 
@@ -434,7 +433,7 @@ ul li:hover a:hover{
     padding: 20px;
     display:block;
     float: left;
-   
+   background-color: #E0EEE0;
 }
 
 .ac-box-container{
@@ -527,28 +526,156 @@ ul li:hover a:hover{
 
 .ca-login{
     width:300px;
-    height: 300px;   
+    height: 280px;   
     display:block;
     margin-left: auto;
     margin-right: auto;
-   background-color: #E0EEE0;
+   background-color: #FFA500;
    padding: 50px;
    margin-top: 5%;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------*/
+
+/*======== ADM Page ===========================*/
+
+.ca-menu-body{
+    width:1000px;
+    height: 30px;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+   background-color: #FF8C00;
+}
+
+.ca-container-a{
+    width:1000px;
+    height: auto;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+      
+}
+
+.ca-container-a-small{
+     width:860px;
+    height: auto;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+    position: relative;
+   background-color: #fff; 
+    
+}
+
+.ca-linha-box{
+    width:820px;
+    height: auto;    
+    display:block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;   
+    position: relative;
+   border-top: 1px solid #FFD39B;   
+    padding: 10px;
+}
+
+
+.linha-a{
+    width:800px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 0px;   
+    position: relative;
+   background-color: #fff; 
+}
+
+.linha-a h1{
+    font-size: 18px;
+   text-decoration: underline;
+}
+.linha-a h3{ font-weight: bold;}
+
+.linha-b{
+    width:auto;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 2px; 
+    
+}
+
+.linha-b2{
+    width:375px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+.linha-b3{
+    width:100px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+
+.linha-b4{
+    width:60px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+.linha-c{
+    width:100px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;   
+   
+    
+}
+
+.ca-container-b{
+    width:1000px;
+    height: auto;
+    padding:20px;
+    display:none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+   background-color: #E0EEE0; 
+    
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/*---------------------------------------------------*/
 
 /*========= MEDIA QUERY INICIO ===========================================*/
 

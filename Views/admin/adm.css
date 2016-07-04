@@ -1,0 +1,443 @@
+
+
+
+
+/*------------ Lmi Base ----------------------*/
+
+.lmi-header-full, .lmi-barra-menu-full, .lmi-body-full, .lmi-footer-full{
+    width: 100%;
+    height: 100px;
+    background-color: #FFEFDB;
+}
+
+.lmi-barra-menu-full{   
+    background-color: #FFD39B;
+}
+
+.lmi-body-full{   
+    background-color: #FFA500;
+}
+.lmi-footer-full{   
+    background-color: #FF8C00;
+}
+
+/*------------ Lmi Base Fim ----------------------*/
+
+
+/*------------ Lmi Base 1200px ----------------------*/
+
+.lmi-header, .lmi-menu, .lmi-body, .lmi-footer{
+    width: 1120px;
+    height: 100px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+}
+
+.lmi-menu{    
+    background-color: #fff;
+}
+
+.lmi-body{   
+    background-color: #fff;
+}
+.lmi-footer{   
+    background-color: #fff;
+}
+
+/*------------ Lmi Base 1200px Fim ----------------------*/
+
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+
+
+
+
+
+
+
+
+/*======== Formulario de cadastro ===========================*/
+
+
+ .ca-body{
+    width:1000px;
+    height: auto;   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFEFDB;
+   margin-top: 0px;
+    
+}
+.ca-header-barra{
+     width:100%;
+    height: 100px;   
+    display:block;
+    background-color: #FFA500;
+    
+}
+.ca-header{
+     width:1000px;
+    height: 100px;   
+    display:block;
+    background-color: #FFA500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ca-logo{
+    width:90px;
+    height: 80px;   
+    display:block;
+    float: left;
+   margin-left: 100px;
+   margin-top: 10px;
+  
+}
+
+.ca-menu{
+     width:400px;
+    height: 70px;   
+    display:block;
+   margin-left:100px;
+   margin-top: 15px;  
+     float: left;
+     position: relative;
+   
+}
+
+.ca-titulo{
+     width:400px;
+    height: 20px;   
+    display:block;    
+     float: left;
+     position: relative;
+     font-family:'Roboto';    
+    text-align:center;
+    font-size: 20px;
+    color:#fff;
+    margin-top: 20px; 
+}
+.ca-numero{
+     width:300px;
+    height: auto;   
+    display:block;  
+   margin-top: 5px; 
+     float: left;
+     position: relative;  
+   text-align:center;
+}
+
+.ca-dropdown{
+     width:180px;
+    height: 35px;
+    padding: 10px;
+    margin-left: -30px;
+    display:block; 
+     float: left;
+     position: relative;
+     font-family:'Roboto';    
+    text-align:center;
+   font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+/*-------------------------------------------------------------*/
+
+
+.ca-container{
+     width:1000px;
+    height: auto;
+    padding: 20px;
+    display:block;
+    float: left;
+   background-color: #E0EEE0;
+}
+
+.ac-box-container{
+     width:900px;
+    height: auto;
+    padding:40px;
+    display:block;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+   background-color: #E0EEE0;
+   
+}
+
+.ac-box{
+    width: 400px;
+    height: auto;    
+    display:block;
+    float: left;     
+}
+.ac-box-3{
+     width:900px;
+    height: 300px;
+    padding:40px;
+    display:block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    position: relative;
+   background-color: #E0EEE0;
+    
+}
+
+.ac-box-31{
+    width: 400px;
+    height: 200px;    
+    display:block;
+    float: left;
+   
+}
+
+.ac-box-32{
+    width: 320px;
+    height: 200px;    
+    display:block;
+    float: left;
+    margin-left: 70px;
+    
+}
+
+.ac-box-31t, .ac-box-32t{
+    width: 400px;
+    height: 50px;    
+    display:block;
+    float: left;
+    
+}
+
+.ac-box-31c, .ac-box-32c{
+    width: 400px;
+    height: 160px;
+    margin-top: 10px;    
+    display:block;
+    float: left;
+   
+}
+
+.ac-box-min{
+    width: 150px;
+    height: auto;
+    margin-top: 0px;    
+    display:block;
+    float: left;
+    
+}
+
+
+
+.ac-mgl{margin-left: 15px;}
+.ac-mgt{margin-top: 5px;}
+.ac-mgt15{margin-top: 15px;}
+
+.ac-h1{margin-top: 20px;}
+.ac-box-container p{margin-top: 15px;}
+
+
+
+
+/*======== Login ===========================*/
+
+.ca-login{
+    width:300px;
+    height: 280px;   
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #FFA500;
+   padding: 50px;
+   margin-top: 5%;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------*/
+
+/*======== ADM Page ===========================*/
+
+.ca-menu-body{
+    width:1000px;
+    height: 30px;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+   background-color: #FF8C00;
+}
+
+.ca-container-a{
+    width:1000px;
+    height: auto;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+      
+}
+
+.ca-container-a-small{
+     width:860px;
+    height: auto;
+    padding:20px;
+    display:block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+    position: relative;
+   background-color: #fff; 
+    
+}
+
+.ca-linha-box{
+    width:820px;
+    height: auto;    
+    display:block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 0px;   
+    position: relative;
+   border-top: 1px solid #FFD39B;   
+    padding: 10px;
+}
+
+
+.linha-a{
+    width:800px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 0px;   
+    position: relative;
+   background-color: #fff; 
+}
+
+.linha-a h1{
+    font-size: 18px;
+   text-decoration: underline;
+}
+.linha-a h3{ font-weight: bold;}
+
+.linha-b{
+    width:auto;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 2px; 
+    
+}
+
+.linha-b2{
+    width:375px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+.linha-b3{
+    width:100px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+
+.linha-b4{
+    width:60px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px; 
+    
+}
+
+.linha-c{
+    width:100px;
+    height: 20px;    
+    display:block;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;   
+   
+    
+}
+
+.ca-container-b{
+    width:1000px;
+    height: auto;
+    padding:20px;
+    display:none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+   background-color: #E0EEE0; 
+    
+}
+
+
+
+/*---------------------------------------------------*/
+
+/*========= MEDIA QUERY INICIO ===========================================*/
+
+@media only screen and (max-width : 1000px){
+ 
+
+
+}
+
+@media only screen and (max-width : 979px) {      
+}
+
+/*----- 767px ------*/
+
+@media only screen and (max-width : 767px) { 
+  
+}
+
+
+
+/*---- 480px -------*/
+
+
+@media only screen and (max-width : 480px) {
+  
+  
+    
+}
+
+
+
+/*---- 320px -----*/
+
+@media only screen and (max-width : 320px) {
+ 
+
+}
+
+/*========= MEDIA QUERY FIM ===========================================*/
