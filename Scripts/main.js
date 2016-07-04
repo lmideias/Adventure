@@ -7,7 +7,7 @@ myApp.controller("myControle", function($scope, $http) {
     $scope.insertdata = function(){
     	$http.post("Domain/cadastro.php",{'nome':$scope.nome,'telefone':$scope.telefone,'numero':$scope.numero, 'orgao':$scope.orgao, 'dataex':$scope.dataex, 'uf':$scope.uf,  'nomecont':$scope.nomecont,'telefonecont':$scope.telefonecont})
     	.success(function(response){
-    		alert("Cadastrado com sucesso");
+    		//alert("Cadastrado com sucesso");
 
     	});
     };
@@ -17,7 +17,7 @@ myApp.controller("myControle", function($scope, $http) {
     	.success(function(data){
     		$scope.dados = data; 		
 
-    		alert("Cadastrado com sucesso");
+    		//alert("Cadastrado com sucesso");
 
     	});
    
