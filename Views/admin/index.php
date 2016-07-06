@@ -32,7 +32,8 @@
         <div class="lmi-body-full">
              <div class="lmi-body">
                  <div class="">
-                                        
+                        
+                     
                  </div>
                  
                   <div class="" ng-controller="StoreController">

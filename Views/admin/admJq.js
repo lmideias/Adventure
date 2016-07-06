@@ -10,6 +10,7 @@
           {nome:"Luciano Eun", mensagem:"Olá besta"}
       ];
       
+      
       $scope.addMensagem = function(contato){
           $scope.contatos.push(contato);
       };
