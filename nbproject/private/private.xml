@@ -3,14 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/C:/Repositorio/Adventure/index.php</file>
-            <file>file:/C:/Repositorio/Adventure/Content/main.css</file>
-=======
-            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/adm.css</file>
-            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/index.php</file>
-            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/admJq.js</file>
->>>>>>> origin/master
+            <file>file:/C:/Repositorio/Adventure/Views/admin/index.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/admin/admJq.js</file>
         </group>
     </open-files>
 </project-private>

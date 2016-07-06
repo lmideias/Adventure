@@ -67,7 +67,6 @@
                    <p>of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise </p>
                    <p>on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.</p>
                
-               
                 </div> 
                
                <br /><br />
@@ -116,8 +115,7 @@
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                    </div>
                </div>
-               
-               
+              
                 <div class="box-user mgt">
                     <div class="box-user-img">
                         <img alt="Logo" src="../Imagens/user.png" width="110" height="110" />
@@ -140,8 +138,7 @@
                    </div>
                </div>
                
-               
-               
+              
                 <div class="box-user mgt">
                     <div class="box-user-img">
                         <img alt="Logo" src="../Imagens/user.png" width="110" height="110" />
@@ -185,8 +182,7 @@
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                    </div>
                </div>
-               
-               
+             
                
           </div> 
             
