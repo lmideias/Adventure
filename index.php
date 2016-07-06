@@ -1,111 +1,146 @@
-
 <!DOCTYPE html>
-
-<html>
+<html ng-app="myModule">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
         <title>Trilhas Adventure</title>
-        <link href="Content/main.css" rel="stylesheet"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+        <link rel="stylesheet" type="text/css"  href="Content/main.css" />
+        <link rel="stylesheet" type="text/css"  href="Content/bootstrap.css" />     
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
         <link href="Content/Reset.css" rel="stylesheet"/>
         <script src="Scripts/main.js"></script>
+        <script src="Scripts/angular.js"></script>
     </head>
-    <body>
-        <div class="header-bc">  
-           <div class="h-social">
-                <div class="hs-01">
-                    <div class="fb-like" data-href="http://trilhasadventure.rf.gd" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-                      
+    
+    <body ng-controller="myControle">
+          <div class="ca-header-barra">
+            <div class="ca-header">
+                  <div class="ca-logo">
+                      <a href="admlogin.php"><img alt="Logo" src="/Imagens/adventure-min.png" width="80" height="76" /></a>
+                  </div>
+                   <div class="ca-menu">
+                       <div class="ca-titulo">
+                           <h1>Cadastro para o Seguro obrigatório</h1>
+                      </div>
+                        <div class="ca-numero">
+                        
+                       </div>
+                  </div>
+            </div>
+            </div>
+        <div class="ca-body">
+          
+            <div class="ca-container">
+                <form method="POST" >
+                 <div class="ac-box-container">                
+                                                       
+                     <span>Seguro obrigatório</span>
+                <p>   
+                As vítimas de acidentes rodoviários têm cobertura do seguro DPVAT (Danos Pessoais Causados por Veículos Automotores de Via Terrestre), uma apólice obrigatória paga por todos os veículos automotores (incluindo ônibus), com o objetivo de garantir indenizações em caso de morte ou invalidez e reembolso, em caso de despesas médicas em decorrência de acidentes.<p/>
+                Quem viaja de ônibus não precisa pagar nada por este seguro, ele já é pago pela empresa prestadora de serviço.
+                </p>
+                
+            </div>
+                    
+                    
+                    
+            <div class="ac-box-3">
+                <div class="ac-box-31">
+                    <div class="ac-box-31t">
+                        <h3>Participante</h3>
+                    </div>
+                    <div class="ac-box-31c">
+                         <div class="form-group ac-box">
+               
+                <input type="text" ng-model="nome" name="nome" class="form-control" id="nome" required placeholder="Seu nome completo">
                 </div>
-                <div class="hs-02">
-                     <a href="#"><div class="home-btn">Participar</div></a>
-                     <a href="#"><div class="home-btn">Agenda</div></a>
-                     <a href="Views/sobre/sobre.php"><div class="home-btn">Sobre</div></a>      
+                
+               <div class="form-group ac-box ">
+               
+                <input type="text" ng-model="telefone" name="telefone" class="form-control" id="seutelefone" required placeholder="Seu Telefone">
                 </div>
-                <div class="hs-03">
-                    <a href="#"> <img alt="Logo" src="/Imagens/whats.png" width="50" height="50" /></a>
-                </div>
-                <div class="hs-03">
-                     <a href="#"><img alt="Logo" src="/Imagens/youtube.png" width="50" height="50" /></a>
-                </div>
-                <div class="hs-03">
-                     <a href="#"> <img alt="Logo" src="/Imagens/insta.png" width="50" height="50" /></a>
-                </div>
-                <div class="hs-03">
-                      <a href="#"> <img alt="Logo"  src="/Imagens/face.png" width="50" height="50" /></a>
-                </div>          
-           
-           </div>
-           <div class="h-body">
-                <div class="hb-left"></div>          
-                <div class="hb-center">
-                    <div class="hbc-logo">
-                     <img alt="Logo" src="/Imagens/adventure-min.png" width="250" height="230" />
                     </div>
                 </div>
-                <div class="hb-right"></div>
-           </div>
-       </div>
+                 <div class="ac-box-32">
+                    <div class="ac-box-32t">
+                         <h3>Documento de Identificação</h3>
+                    </div>
+                    <div class="ac-box-32c">
+                         <div class="ac-box-min">    
+                             
+                              <input type="text" ng-model="numero" name="numero"class="form-control" id="numero" required placeholder="Numero">
+                         </div>
 
-       
-        <div class="main-body">  
-            <div class="container-body"> 
-                 <div class="box-b1"> 
-                     
-                 </div>
-                 <div class="box-b2"> 
-                      <img alt="Logo" src="/Imagens/bg-min.png" width="600" height="400" />
-                 </div>
-                 <div class="box-b3"> 
-                     
-                 </div>
-                <!-- menu body-->
-                 <div class="b-menu"> 
-                      <div class="bm-op"> 
-                          <div class="bm-op-titulo"> 
-                              <h3> Agenda de Eventos</h3>
-                          </div>
-                          <div class="bm-op-imagem"> 
-                              <img alt="Logo" src="/Imagens/bg-min.png" width="180" height="120" />
-                          </div>
-                          <div class="bm-op-link"> 
-                              <h4>Link de acesso</h4>
-                          </div>
-                      </div>
-                 </div>
-                
-                
-                 <div class="box-a"> 
-                 Trilhas Adventure é um grupo voluntário que visa a integração do participante ao estilo de vida saudável, 
-                  <p> através da prática de atividades voltada para o ecoturismo, incluindo trilhas, esportes radicais, e aventuras
-                   em espaços naturais. </p><br />
-                   <p> E, ainda, diversos passeios e eventos voltados para área social, como arrecadação de agasalhos,
-                 alimentos, entre outros. </p>
-                   <br />            
-               
-                 <p>Nossa equipe é formada por pessoas experientes que tem o compromisso de proporcionar aventuras e momentos únicos com toda a segurança requerida para tais atividades.</p><br />
-                 <p>Os eventos são previamente organizados, os locais são visitados com antecedência para montagem do melhor roteiro de acordo com o público- alvo. </p>
-                 </div>
-            </div>  
-       
-       </div>
-        
-        
-        
-        <div class="footer">  
-            <div class=""> 
-               <h3>Textos para analise de espaço</h3> 
-            </div>       
-       </div>
-        
-       <div id="fb-root"></div>
-             <script>(function(d, s, id) {
-             var js, fjs = d.getElementsByTagName(s)[0];
-             if (d.getElementById(id)) return;
-             js = d.createElement(s); js.id = id;
-             js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=570611709655080";
-             fjs.parentNode.insertBefore(js, fjs);
-             }(document, 'script', 'facebook-jssdk'));
-            </script> 
+                        <div class="ac-box-min ac-mgl">    
+                           
+                            <input type="text" ng-model="dataex" name="dataex"class="form-control" id="dataexp" required placeholder="Data Expedição">
+                        </div>
 
+                         <div class="ac-box-min ac-mgt15">    
+                            
+                             <input type="text" ng-model="orgao" name="orgao" class="form-control" id="orgao" required placeholder="Orgão Emissor">                
+
+                        </div>
+
+                        <div class="ac-box-min ac-mgt15 ac-mgl">    
+                            
+                             <input type="text" ng-model="uf" name="uf" class="form-control" id="uf" required placeholder="Estado de Origem">
+
+                        </div> 
+                    </div>
+                </div>  
+                
+                   
+            </div>
+                                
+                
+                    
+                    
+                    
+                
+                 <div class="ac-box-container ac-mgt">
+                <h3>Contato de Emergência</h3>
+                 <br />  
+                  <br />  
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+                <br /><br />
+                
+                                
+                <div class="form-group ac-box">                
+                <input type="text" ng-model="nomecont" name="nomecont" class="form-control" id="nome" required placeholder="Nome do Contato">
+                </div>
+                
+               <div class="form-group ac-box ac-mgl">               
+                <input type="text" ng-model="telefonecont" name="telefonecont" class="form-control" id="seutelefone" required placeholder="Telefone do Contato">
+                </div>     
+                            
+                
+                </div>
+                 <div class="ac-box-container ac-mgt">
+                     
+                     <h1 class="ca-h1">Responsabilidades</h1>
+                     <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                   </p>
+                   <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                   </p>
+                </div>
+                    
+                <div class="ac-box-container ">   
+                   <div class="form-group ac-box">                   
+                    <button type="button" name="btnOk" ng-click="insertdata()" class="btn btn-primary">Concordar</button>                
+                    <button type="button" name="" class="btn btn-primary">Sair</button>
+                   
+                   </div> 
+                </div>
+                    
+                </form>  
+            </div>
+        </div>
     </body>
 </html>
