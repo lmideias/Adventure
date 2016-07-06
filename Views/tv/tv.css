@@ -1,6 +1,6 @@
 .beckground {
     width: 100%;   
-    background-image: url('bg-min.png');
+    background-image: url('../sobre/bg-min.png');
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center center;
@@ -14,11 +14,22 @@ p{
      font-family:'Roboto';     
 }
 
+/*------------------------------------------------------*/
 .sobre-container{
 	width:93%;
 	height:auto;
         padding: 40px;
 	background-color: #fff ;
+               
+}
+
+/*------------------------------------------------------*/
+
+.tv-container{
+	width:1160px;
+	height:auto;
+        padding: 20px;
+	background-color: #000000 ;
                
 }
 /*------------------------------------------------------*/
@@ -36,6 +47,34 @@ p{
 	margin-right:auto;
 	
 }
+
+
+.barra-menu{
+        width: 900px;
+	height: 60px;
+        display: block;
+        float: right;	
+       margin-top: -60px;
+}
+
+/*-----------------------------------------------------------*/
+
+.barra-total-prop{
+	width: 100%;
+	height: 120px;
+	background-color: #fff;
+}
+
+.barra-central-prop{
+	width: 1200px;
+	height: 120px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+/*-----------------------------------------------------------*/
+
 
 .main-body{
 	width: 1200px;
@@ -75,10 +114,25 @@ p{
 	border: 1px solid #FF7F00;
 }
 
+/*-------------------------------------------------------------*/
 
+.box-btn{
+    width: 120px;
+    height: 40px;
+    border-radius:5px ; 
+    background-color: #FFA500;
+    cursor: pointer;
+     display: block;
+    float: right;   
+    margin-top: 5px;
+    color: #fff;
+     font-family:'Roboto';    
+    text-align:center;    
+    line-height: 40px;
+    
+}
 
-
-
+/*-------------------------------------------------------------*/
 
 
 

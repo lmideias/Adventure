@@ -1,69 +1,9 @@
+/*------------- Header-----------------------------------------*/
 
-body{
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-color: #EEEED1;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover; /*Css padrão*/
-}
-
-/*------------------------------------------------------*/
-
-.header-banner-simples{
-	width: 100%;
-	height: 80px;
-	background-color: #548B54;
-}
-
-.header-simples{
-	width: 1200px;
-	height: 80px;
-	margin-left: auto;
-	margin-right:auto;
-	background-color: #548B54;
-}
-
-.header-menu-simples{
-	width: 800px;
-	height: 50px;
-	margin-top:15px;
-	display:block;
-	float:right;
-	margin-left: 15px;	
-	
-}
-
-.header-logo-simples{
-	width:  60px;
-	height: 60px;
-	display:block;
-	float:left;
-	
-	margin-top:10px;	
-		
-}
-
-
-.header-seach-simples{
-	width: 300px;
-	height: 50px;
-	margin-top:15px;	
-	display:block;
-	float:left;
-	margin-left: 20px;
-	
-	
-}
-
-
-
-/*------------------------------------------------------*/
-
-.header-banner{
-	width: 100%;
-	height: 600px;	
-    background-image: url('../Imagens/bg-min.png');
+.header-bc{
+    width: 100%;
+    height: 600px;	
+    background-image: url('../Imagens/bg2.jpg');
     background-repeat: no-repeat;
     background-color: #000000;
     background-position: center center;
@@ -71,12 +11,47 @@ body{
     background-size: cover; /*Css padrão*/
 }
 
+.h-social{
+    width: 1200px;
+    height: 80px;   
+    margin-left: auto;
+    margin-right:auto;
+    
+}
 
+.hs-01{
+    width: 400px;
+    height: 60px;
+    display: block;
+    float: left; 
+     margin-top: 5px;
+   
+}
 
+.hs-02{
+    width: 400px;
+    height: 60px;
+    display: block;
+    float: left;
+    margin-left: 15px;
+     margin-top: 5px;
+    
+}
+.hs-03{
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left; 
+    margin-left: 20px;
+     margin-top: 5px;
+    
+}
 
+.hs-03:hover{
+     margin-top: 15px;
+}
 
-
-.header{
+.h-body{
 	width: 1200px;
 	height: 600px;
 	margin-left: auto;
@@ -84,87 +59,36 @@ body{
 	
 }
 
-.header-logo{
-       width: 200px;
-	height: 180px;
-        margin-top: 30px;
-        alignment-adjust: central;
-	 position:absolute;  
-}
-
-/*----------*/
-.home-header-menu{
-    width: 1200px;
-    height: 60px;   
-}
-
-.home-btn{
-    width: 120px;
-    height: 40px;
-    border-radius:5px ; 
-    background-color: #FFA500;
-    cursor: pointer;
-     display: block;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-    color: #fff;
-     font-family:'Roboto';    
-    text-align:center;    
-    line-height: 40px;
-    
-}
-
-.home-social{
-    width: 350px;
-    height: 40px;
-    border-radius:5px ;    
-     display: block;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-      background-color: #FFA500;
-}
-
-.home-social2{
-    width: 180px;
-    height: 40px;
-    border-radius:5px ; 
-    background-color: #FFA500;
-    cursor: pointer;
-     display: block;
-    float: left;
-    margin-left: 15px;
-    margin-top: 5px;
-     
-}
-/*----------*/
-
-.home-header-left{
-    width: 475px;
+.hb-left{
+    width: 470px;
     height: 460px;
     display: block;
     float: left;
-     margin-top: 15px;
-   
-}
-.home-header-center{
-    width: 200px;
-     height: 460px;
-    display: block;
-    float: left;
-    margin-top: 15px;
+    margin-top: 10px;
     
 }
-.home-header-right{
-    width: 475px;
-      height: 460px;
+
+.hb-center{
+    width: 250px;
+    height: 460px;
     display: block;
     float: left;
-     margin-top: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+
+.hb-right{
+    width: 470px;
+    height: 460px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
    
 }
-.home-logo{
+
+.hbc-logo{
      width: 240px;
      height: 240px;
     display: block;
@@ -185,6 +109,7 @@ body{
 @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
 
+
 /*------------------------------------------------------*/
 
 
@@ -196,6 +121,125 @@ body{
 	background-color: #fff ;
 }
 
+.container-body{
+	width:1120px;
+	height:1000px;
+        margin-top: -60px;
+        background-color: #fff ;
+        padding: 40px;
+}
+
+
+
+/*-----------------------------------------------------*/
+
+
+.b-menu{
+    width: 1110px;
+    height: 200px;   
+    display: block;
+    float: left;   
+    margin-top: 30px;
+    background-color: #FFD39B;
+    
+}
+
+.bm-op{
+     width: 180px;
+    height: 200px;   
+    display: block;
+    float: left;    
+    background-color: #fff;
+}
+
+.bm-op-titulo{
+     width: 180px;
+    height: 30px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+
+.bm-op-imagem{
+     width: 180px;
+    height: 120px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+.bm-op-link{
+     width: 180px;
+    height: 30px;   
+    display: block;
+    float: left;   
+    margin-top: 5px;
+    background-color: #548B54;
+}
+
+
+.home-btn{
+    width: 100px;
+    height: 30px;
+    border-radius:5px ; 
+    background-color: #FFA500;
+    cursor: pointer;
+     display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+     font-family:'Roboto';    
+    text-align:center;    
+    line-height: 30px;
+    
+}
+
+/*-------------------------*/
+
+.box-b1{
+    width: 250px;
+    height: 400px;
+    display: block;
+    float: left;
+    background-color: #FFD39B;    
+}
+
+.box-b2{
+    width: 600px;
+    height: 400px;
+    display: block;
+    float: left;
+     margin-left: 5px;
+    background-color: #FFD39B;    
+}
+
+.box-b3{
+    width: 250px;
+    height: 400px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    background-color: #FFD39B;    
+}
+
+.box-a{
+    width: auto;
+    height: auto;
+    display: block;
+    float: left;
+    background-color: #FFD39B;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+/*-------------------------*/
 .footer{
 	width: 1200px;
 	height: 100px;
@@ -215,12 +259,14 @@ body{
 	height:auto;
 	
 }
-.container-body{
-	width:100%;
-	height:600px;
-        margin-top: -60px;
-        background-color: #fff ;
-}
+
+
+/*----- social-menu-imagens ----------------*/
+
+
+
+
+
 /*======= Menu =================================*/
 
 ul{

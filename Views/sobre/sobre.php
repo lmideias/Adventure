@@ -25,7 +25,7 @@
           <div class="sobre-container"> 
                <h2>Quem e o Trilhas Adventure</h2> 
                <br />
-               <p>            
+               <p>
 
 
 Trilhas Adventure é um grupo voluntário que visa a integração do participante ao estilo de vida saudável, através da prática de atividades voltada para o ecoturismo, incluindo trilhas, esportes radicais, e aventuras em espaços naturais. E, ainda, diversos passeios e eventos voltados para área social, como arrecadação de agasalhos, alimentos, entre outros. 
