@@ -14,7 +14,9 @@
     background-color: #FFD39B;
 }
 
-.lmi-body-full{   
+.lmi-body-full{ 
+     height:800px;
+    
     background-color: #FFA500;
 }
 .lmi-footer-full{   
@@ -39,7 +41,8 @@
     background-color: #fff;
 }
 
-.lmi-body{   
+.lmi-body{ 
+    height:800px;    
     background-color: #fff;
 }
 .lmi-footer{   
@@ -56,12 +59,89 @@ h1 {
 }
 
 
+/*----------- BOX ------------------------------------------------*/
+
+.lmi-box-center{
+    width: 100%;
+    height: 100px;
+     display: block;
+    float: left;
+    padding: 20px;
+    position: relative;
+    background-color: #FFEFDB;
+}
+
+.lmi-box-left{
+     width: 700px;
+    height: 600px;
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-top: 15px;
+    position: relative;
+    background-color: #FFEFDB;
+}
+
+.lmi-box-right{
+    width: 320px;
+    height: 600px;
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    position: relative;
+    background-color: #FFEFDB;
+}
 
 
+.lmi-br-post{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #fff;
+}
+.lmi-br-mens{
+     width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
 
+.box-mensagens{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+   
+}
 
+.box-mensagens-header img{width: 50px; height: 50px; float: left;}
+.box-mensagens-header{
+    width: 100%;
+    height: 50px;   
+    border: 1px solid #000;
+}
 
+.box-mensagens-titulo{
+     width: 200px;
+    height: 50px;
+    display: block;
+    float: left;
+    
+    margin-left: 10px;
+   
+    position: relative;
+    
+}
+.box-mensagens-titulo h5{
+    margin-top: -10px;
+}
 
+.box-mensagens-texto{
+     width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
 
 /*======== Formulario de cadastro ===========================*/
 
