@@ -1,10 +1,40 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 19/07/2016, 16:06:12
-    Author     : Almir
-*/
 
+.barra-social{
+    width: 961px;
+    height: 70px;
+   
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #FFEFDB; 
+}
+
+.barra-social img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.cp-pesquisar{
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;   
+    border: 1px solid #ccc; 
+}
+.btn-pesquisar{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;   
+    
+}
+.body-social{
+     width: 960px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #ccc; 
+}
