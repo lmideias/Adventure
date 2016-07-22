@@ -1,0 +1,40 @@
+
+.barra-social{
+    width: 1200px;
+    height: 70px;
+   
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #FFEFDB; 
+}
+
+.barra-social img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.cp-pesquisar{
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;   
+    border: 1px solid #ccc; 
+}
+.btn-pesquisar{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;   
+    
+}
+.body-social{
+     width: 1200px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #ccc; 
+}
