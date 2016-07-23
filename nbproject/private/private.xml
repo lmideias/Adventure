@@ -3,7 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/tas/index.php</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/adm.css</file>
+            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/index.php</file>
+            <file>file:/C:/xampp/htdocs/RepositorioAdv/Adventure/Views/admin/admJq.js</file>
+=======
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Config/main.js</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Templates/sobre.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Templates/nav.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Templates/user.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/index.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Templates/footer.php</file>
+            <file>file:/C:/Repositorio/Adventure/Views/tas/Config/main.css</file>
+>>>>>>> origin/master
+>>>>>>> origin/master
         </group>
     </open-files>
 </project-private>
