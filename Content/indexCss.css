@@ -1,0 +1,34 @@
+.container-base{
+    width: 400px;
+    height: 200px;   
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #FFEFDB;
+    margin-top: 10px;
+    
+}
+
+.popupA{
+    z-index: 9999;
+    display: none;
+}
+.overlay{    
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,55);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.boxCo{
+    width: 200px;
+    height: 200px;   
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%, -50%);
+}

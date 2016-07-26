@@ -6,4 +6,5 @@
             
                <a ui-sref="about">Sobre</a>
                 <a ui-sref="user">Usuarios</a>
+                 <a ui-sref="login">Logar</a>
 </div>

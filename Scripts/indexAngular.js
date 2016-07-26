@@ -1,6 +1,6 @@
-var tasApp = angular.module("tasApp", ['ui.router']);
+var inApp = angular.module("inApp", ['ui.router']);
 
-       tasApp.config(['$urlRouterProvider','$stateProvider', function($urlRouterProvider,$stateProvider){
+       inApp.config(['$urlRouterProvider','$stateProvider', function($urlRouterProvider,$stateProvider){
                $urlRouterProvider
                        .otherwise('/');               
                 $stateProvider
