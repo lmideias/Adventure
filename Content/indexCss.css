@@ -9,21 +9,21 @@
 }
 
 .popupA{
-    z-index: 9999;
+    z-index: 99999;
     display: none;
-}
-.overlay{    
-   width: 100%;
+    width: 100%;
    height: 100%;
-   background-color: rgba(0,0,0,55);
+   background-color: rgba(0,0,0,0.55);
    position: absolute;
    top: 0;
    left: 0;
 }
 
+
 .boxCo{
-    width: 200px;
-    height: 200px;   
+    width: 600px;
+    height: 400px; 
+    padding: 50px;
     margin-left: auto;
     margin-right:auto;
     background-color: #fff;
