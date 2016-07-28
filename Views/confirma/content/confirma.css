@@ -9,7 +9,8 @@
     background-size: cover; /*Css padrão*/
 }
 
-
+ /*<a ui-sref="home"><img alt="Logo" src="content/" width="70" height="70" /></a>*/
+ 
 .menu-barra{
     width: 700px;
     height: 80px;   
